@@ -22,7 +22,7 @@ body {
 .container {
   width: 100%;
   max-width: 900px;
-  margin: 25px auto 0;
+  margin: 20px auto 0;
   padding: 0 24px;
 }
 
@@ -74,7 +74,7 @@ ul li a {
   align-items: center;
 
   height: 70px;
-  padding: 16px 100px;
+  padding: 16px 70px 16px 100px;
 
   background-color: var(--surface-color);
   border: 1px solid var(--stroke-color);
@@ -126,4 +126,32 @@ ul li img {
 
 .social-links a:hover {
   background: var(--highlight-color);
+}
+
+@media (max-width: 485px) {
+  .profile img {
+    width: 160px;
+  }
+  .profile h3 {
+    font-size: 18px;
+  }
+  .profile p {
+    font-size: 14px;
+  }
+
+  ul li a {
+    font-size: 13px;
+    padding: 16px 30px 16px 75px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 309px) {
+  ul li a img {
+    display: none;
+  }
+
+  ul li a {
+    padding: 16px 30px;
+  }
 }
