@@ -128,7 +128,7 @@ ul li img {
   background: var(--highlight-color);
 }
 
-@media (min-width: 309) and (max-width: 485px) {
+@media (max-width: 485px) {
   .profile img {
     width: 160px;
   }
@@ -152,6 +152,7 @@ ul li img {
   }
 
   ul li a {
+    font-size: 13px;
     padding: 16px 30px;
   }
 }
